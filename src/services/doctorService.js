@@ -1,5 +1,5 @@
 
-import _, { reject } from 'lodash';
+import _ from 'lodash';
 import db from '../models/index';
 require('dotenv').config();
 import emailService from './emailService'
